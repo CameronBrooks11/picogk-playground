@@ -495,3 +495,6 @@ xcuserdata/
 *.out
 *.app
 
+
+# PicoGK output written by Program.cs
+out/
