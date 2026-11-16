@@ -1,7 +1,9 @@
 ﻿using Leap71.ShapeKernel;
 using PicoGK;
 
-string strOutputFolder = "D:/repos/Peacock-Engineering-Playground/out";
+// out/ in the directory the program is run from
+string strOutputFolder = Path.Combine(Directory.GetCurrentDirectory(), "out");
+Directory.CreateDirectory(strOutputFolder);
 
 try
 {
